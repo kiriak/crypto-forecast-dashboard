@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="refresh" content="60">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crypto Forecast Dashboard</title>
+    <style>
+        body {
+            background-color: #111;
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        h1 {
+            margin-top: 40px;
+        }
+        img {
+            max-width: 90%;
+            height: auto;
+            border: 2px solid #333;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>📈 Crypto Forecast Dashboard</h1>
+
+    <h2>Ethereum</h2>
+    <img src="{{ url_for('static', filename='ethereum_forecast.png') }}" alt="Ethereum Forecast">
+
+    <h2>Bitcoin</h2>
+    <img src="{{ url_for('static', filename='bitcoin_forecast.png') }}" alt="Bitcoin Forecast">
+
+    <h2>Solana</h2>
+    <img src="{{ url_for('static', filename='solana_forecast.png') }}" alt="Solana Forecast">
+</body>
+</html>
+
