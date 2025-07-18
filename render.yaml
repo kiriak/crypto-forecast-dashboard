@@ -3,5 +3,5 @@ services:
     name: crypto-forecast-dashboard
     env: python
     buildCommand: pip install -r requirements.txt
-    startCommand: streamlit run web_dashboard.py
+    startCommand: gunicorn web_dashboard:app
     pythonVersion: 3.10
