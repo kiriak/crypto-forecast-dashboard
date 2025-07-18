@@ -1,12 +1,9 @@
+pip
 setuptools
 wheel
 numpy==1.26.4
 pandas==2.3.1
-scikit-learn==1.7.0
-scipy==1.16.0
 streamlit==1.31.1
-packaging==23.2
-protobuf==5.29.5
 requests==2.32.4
-python-dateutil==2.9.0.post0
 pillow==10.2.0
+packaging==23.2
