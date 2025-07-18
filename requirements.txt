@@ -1,6 +1,6 @@
-pip
-setuptools
-wheel
+pip>=23.0
+setuptools>=68.0
+wheel>=0.41
 
 numpy==1.26.4
 pandas==2.3.1
@@ -8,3 +8,5 @@ streamlit==1.31.1
 requests==2.32.4
 pillow==10.2.0
 packaging==23.2
+protobuf==5.29.5
+python-dateutil==2.9.0.post0
