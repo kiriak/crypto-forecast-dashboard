@@ -8,5 +8,4 @@ def index():
     images = [img for img in os.listdir('.') if img.endswith('_forecast.png')]
     return render_template('index.html', images=images)
 
-if __name__ == '__main__':
 
