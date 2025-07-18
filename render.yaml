@@ -3,5 +3,5 @@ services:
     name: crypto-forecast-dashboard
     env: python
     buildCommand: pip install -r requirements.txt
-    startCommand: gunicorn web_dashboard:app --bind 0.0.0.0:8501
+    startCommand: gunicorn web_dashboard:app --bind 0.0.0.0:10000
     pythonVersion: 3.10
